@@ -199,4 +199,10 @@ The `more` command only allows you to navigate one way; as a bit of a joke, you 
 less myfile
 ```
 
+Finally, in Google Cloud Shell, you can open files in the Cloud Shell Editor using the `edit` command.
+
+```bash
+edit myfile
+```
+
 Hopefully this will give you a bit of practice working in the Linux filesystem. We'll be using the Cloud Shell Editor for a lot of things, but it's always good to know the basics in case you need them!
