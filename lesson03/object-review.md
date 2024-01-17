@@ -28,7 +28,9 @@ If we want to add methods to our class, we declare them like functions in Python
 
 **init** is a special Python method that we'll need. It is used to initialize the properties for an object. It's declared as `__init__` - often called "dunder init" (dunder: **d**ouble **under**score). It shouldn't return a value and should only be used to set up the class.
 
-All Python methods start with a `self` parameter. This parameter is used to assign properties to your object. In the following code, we create a `Square` class with a `side` property by setting `self.side` to the parameter. We also use `__init__` to initialize the value for the side.
+All Python methods start with a `self` parameter. This parameter is used to assign properties to your object. One of the most common errors I run into in my code repeatedly is forgetting to use `self`, so be diligent!
+
+In the following code, we create a `Square` class with a `side` property by setting `self.side` to the parameter. We also use `__init__` to initialize the value for the side. 
 
 ```py
 class Square(object):
